@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="@string/calendar" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="@string/grades" />
+    </group>
+
+    <item android:title="My Course">
+        <menu>
+            <item
+                android:id="@+id/nav_subject1"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/subject1" />
+            <item
+                android:id="@+id/nav_subject2"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/subject2" />
+            <item
+                android:id="@+id/nav_subject3"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/subject3" />
+
+            <item
+                android:id="@+id/nav_subject4"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/subject4" />
+            <item
+                android:id="@+id/nav_l1"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/l1" />
+
+            <item
+                android:id="@+id/nav_l2"
+                android:icon="@drawable/ic_subject_black_24dp"
+                android:title="@string/l2" />
+
+
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="@string/notifications" />
+            <item
+                android:id="@+id/nav_messages"
+                android:icon="@drawable/ic_message_black_24dp"
+                android:title="@string/messages" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_arrow_forward_black_24dp"
+                android:title="@string/logout" />
+
+
+
+
+
+
+
+        </menu>
+    </item>
+
+</menu>

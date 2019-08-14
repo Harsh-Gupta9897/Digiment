@@ -1,11 +1,25 @@
 <resources>
     <string name="app_name">Digiment</string>
-    <string name="tab_1">Tab 1</string>
-    <string name="tab_2">Tab 2</string>
-    <string name="tab_3">Tab 3</string>
-    <string name="tab_4">Tab 4</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="profile">Profile</string>
+    <string name="grades">Grades</string>
+    <string name="subject1">Subject1</string>
+    <string name="subject2">Subject2</string>
+    <string name="subject3">Subject3</string>
+    <string name="subject4">Subject4</string>
+    <string name="l1">L1</string>
+    <string name="l2">L2</string>
+    <string name="notifications">Notifications</string>
+    <string name="messages">Messages</string>
+    <string name="logout">Logout</string>
 
 </resources>
