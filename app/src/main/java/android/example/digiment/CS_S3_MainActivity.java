@@ -2,23 +2,23 @@ package android.example.digiment;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity  implements Tab1.OnFragmentInteractionListener , Tab2.OnFragmentInteractionListener,Tab3.OnFragmentInteractionListener , Tab4.OnFragmentInteractionListener{
+public class CS_S3_MainActivity extends AppCompatActivity  implements CS_S3_1.OnFragmentInteractionListener , CS_S3_2.OnFragmentInteractionListener,CS_S3_3.OnFragmentInteractionListener , CS_S3_4.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("TAB 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("TAB 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("TAB 3"));
-        tabLayout.addTab(tabLayout.newTab().setText("TAB 4"));
+        tabLayout.addTab(tabLayout.newTab().setText("cs_s3_1"));
+        tabLayout.addTab(tabLayout.newTab().setText("cs_s3_2"));
+        tabLayout.addTab(tabLayout.newTab().setText("cs_s3_3"));
+        tabLayout.addTab(tabLayout.newTab().setText("cs_s3_4"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         final ViewPager viewPager=(ViewPager)findViewById(R.id.pager);
         final PagerAdapter adapter =new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
@@ -46,5 +46,9 @@ public class MainActivity extends AppCompatActivity  implements Tab1.OnFragmentI
     public void onFragmentInteraction(Uri uri) {
 
     }
-
+    public  void next(View view)
+    {
+        Intent abc = new Intent(CS_S3_MainActivity.this,slide1.class);
+        startActivity(abc);
+    }
 }

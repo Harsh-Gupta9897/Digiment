@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-public class PagerAdapter extends FragmentStatePagerAdapter {
+public class CS_S5_PagerAdapter extends FragmentStatePagerAdapter {
     int NoOfTabs;
-    public PagerAdapter(FragmentManager fm , int NumberOfTabs)
+    public CS_S5_PagerAdapter(FragmentManager fm , int NumberOfTabs)
     {
         super(fm);
         this.NoOfTabs=NumberOfTabs;
