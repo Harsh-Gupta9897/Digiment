@@ -1,11 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Home"
-    tools:showIn="@layout/app_bar_home">
+    tools:context=".Home">
+    <!--tools:showIn="@layout/app_bar_home">-->
 
-</android.support.constraint.ConstraintLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/colorPrimary" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_cse"
+        android:layout_below="@+id/base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/branch1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/curved_button"
+            android:gravity="center_vertical"
+            android:text="@string/C1_1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/branch1"
+            android:text="@string/C1"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_co"
+        android:layout_below="@+id/layout_cse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/branch2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/curved_button2"
+            android:gravity="center_vertical"
+            android:text="@string/C3_3"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/branch2"
+            android:text="@string/C3"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_it"
+        android:layout_below="@+id/layout_co"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/branch3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/curved_button3"
+            android:gravity="center_vertical"
+            android:text="@string/C2_2"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/branch3"
+            android:text="@string/C2"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_csi"
+        android:layout_below="@+id/layout_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/branch4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/curved_button4"
+            android:gravity="center_vertical"
+            android:text="@string/C4_4"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/branch4"
+            android:text="@string/C4"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="simpleCircle"
+        app:bmb_piecePlaceEnum="piecePlace_dot_3_1"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_3_1"
+        android:layout_margin="10dp"
+        app:bmb_buttonRadius="25dp"
+        app:bmb_normalColor="@color/colorAccent"
+        app:bmb_rippleEffect="true"
+        app:bmb_draggable="false"
+        />
+
+</RelativeLayout>

@@ -14,6 +14,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 
+import com.nightonke.boommenu.BoomButtons.SimpleCircleButton;
+import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.Util;
+
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -31,6 +35,22 @@ public class Home extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
+
+        BoomMenuButton bmb = null;
+        for (int i = 0; i < bmb.getPiecePlaceEnum().pieceNumber(); i++) {
+            SimpleCircleButton.Builder builder = new SimpleCircleButton.Builder()
+                    .normalImageRes(R.drawable.ic_arrow_forward_black_24dp)
+                    .rotateImage(false)
+                    .isRound(false)
+                    .shadowCornerRadius(Util.dp2px(20))
+                    .buttonCornerRadius(Util.dp2px(20))
+                    .rippleEffect(true)
+                    .shadowEffect(true);
+
+            bmb.addBuilder(builder);
+        }
+
+
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
