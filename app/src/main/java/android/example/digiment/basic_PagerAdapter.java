@@ -4,9 +4,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-public class CS_S1_PagerAdapter extends FragmentStatePagerAdapter {
+public class basic_PagerAdapter extends FragmentStatePagerAdapter {
     int NoOfTabs;
-    public CS_S1_PagerAdapter(FragmentManager fm , int NumberOfTabs)
+    public basic_PagerAdapter(FragmentManager fm , int NumberOfTabs)
     {
         super(fm);
         this.NoOfTabs=NumberOfTabs;
@@ -16,24 +16,15 @@ public class CS_S1_PagerAdapter extends FragmentStatePagerAdapter {
         switch (i)
         {
             case 0: {
-                CS_S1_1 tab1 = new CS_S1_1();
+                basic_1 tab1 = new basic_1();
                 return tab1;
             }
             case 1:
             {
-                CS_S1_2 tab2 = new CS_S1_2();
+                basic_2 tab2 = new basic_2();
                 return tab2;
             }
-            case 2:
-            {
-                CS_S1_3 tab3 = new CS_S1_3();
-                return tab3;
-            }
-            case 3:
-            {
-                CS_S1_4 tab4 = new CS_S1_4();
-                return tab4;
-            }
+
             default:
                 return null;
         }

@@ -4,24 +4,24 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
+import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class CS_S1_MainActivity extends AppCompatActivity  implements CS_S1_1.OnFragmentInteractionListener , CS_S1_2.OnFragmentInteractionListener,CS_S1_3.OnFragmentInteractionListener , CS_S1_4.OnFragmentInteractionListener{
+public class basic_MainActivity extends AppCompatActivity  implements basic_1.OnFragmentInteractionListener , basic_2.OnFragmentInteractionListener,CS_S1_3.OnFragmentInteractionListener , CS_S1_4.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("cs_s1_1"));
-        tabLayout.addTab(tabLayout.newTab().setText("cs_s1_2"));
-        tabLayout.addTab(tabLayout.newTab().setText("cs_s1_3"));
-        tabLayout.addTab(tabLayout.newTab().setText("cs_s1_4"));
+        tabLayout.addTab(tabLayout.newTab().setText("basic_1"));
+        tabLayout.addTab(tabLayout.newTab().setText("basic_2"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         final ViewPager viewPager=(ViewPager)findViewById(R.id.pager);
-        final PagerAdapter adapter =new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
+        final basic_PagerAdapter adapter =new basic_PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -48,7 +48,7 @@ public class CS_S1_MainActivity extends AppCompatActivity  implements CS_S1_1.On
     }
     public  void next(View view)
     {
-        Intent abc = new Intent(CS_S1_MainActivity.this,slide1.class);
+        Intent abc = new Intent(basic_MainActivity.this,slide1.class);
         startActivity(abc);
     }
 }

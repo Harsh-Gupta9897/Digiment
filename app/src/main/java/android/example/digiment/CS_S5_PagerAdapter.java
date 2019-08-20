@@ -16,22 +16,22 @@ public class CS_S5_PagerAdapter extends FragmentStatePagerAdapter {
         switch (i)
         {
             case 0: {
-                Tab1 tab1 = new Tab1();
+                CS_S5_1 tab1 = new CS_S5_1();
                 return tab1;
             }
             case 1:
             {
-                Tab2 tab2 = new Tab2();
+                CS_S5_2 tab2 = new CS_S5_2();
                 return tab2;
             }
             case 2:
             {
-                Tab3 tab3 = new Tab3();
+                CS_S5_3 tab3 = new CS_S5_3();
                 return tab3;
             }
             case 3:
             {
-                Tab4 tab4 = new Tab4();
+                CS_S5_4 tab4 = new CS_S5_4();
                 return tab4;
             }
             default:

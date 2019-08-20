@@ -21,7 +21,7 @@ public class CS_S1_MainActivity extends AppCompatActivity  implements CS_S1_1.On
         tabLayout.addTab(tabLayout.newTab().setText("cs_s1_4"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         final ViewPager viewPager=(ViewPager)findViewById(R.id.pager);
-        final PagerAdapter adapter =new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
+        final CS_S1_PagerAdapter adapter  =new CS_S1_PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
