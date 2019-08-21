@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.example.digiment">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -9,9 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Profile"></activity>
         <activity android:name=".Sign_up" />
         <activity android:name=".Subject_dashboard" />
+=======
+
+        <activity android:name=".slide1"></activity>
+
+        <activity android:name=".Subject_dashboard"></activity>
+
+>>>>>>> 48b2849a1f23d3dd27dc002ca4a23053d5d663e9
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
@@ -23,6 +32,9 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".basic_MainActivity">
+
         </activity>
     </application>
 
