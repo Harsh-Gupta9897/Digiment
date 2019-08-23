@@ -34,7 +34,7 @@
 
     //sign_up
     <string name="sign_in">Sign In</string>
-//profile
+    //profile
     <string name="name">Name</string>
     <string name="branch">Branch</string>
     <string name="roll_no">Roll No.</string>
@@ -44,10 +44,9 @@
     <string name="email">Email Id</string>
     <string name="dob">DOB</string>
     <string name="Father_name">Father\'s Name</string>
-      <string name="Mother_name">Mother\'s Name</string>
-      <string name="address">Address</string>
+    <string name="Mother_name">Mother\'s Name</string>
+    <string name="address">Address</string>
     <string name="save">Save</string>
-
 
 
 </resources>

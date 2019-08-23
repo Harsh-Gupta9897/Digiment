@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0B0B"
+    tools:context=".ProgressBar">
+
+    <ProgressBar
+
+        android:id="@+id/circularProgressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="189dp"
+        android:layout_height="190dp"
+        android:layout_alignEnd="@+id/tv"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_bar"
+        android:secondaryProgress="100"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="198dp"
+        android:layout_height="185dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:text="25%"
+        android:textColor="#DDCECE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
+        tools:layout_editor_absoluteY="7dp" />
+
+
+    <ProgressBar
+
+        android:id="@+id/circularProgressbar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="189dp"
+        android:layout_height="190dp"
+        android:layout_alignEnd="@+id/tv"
+        android:layout_alignParentBottom="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_bar"
+        android:secondaryProgress="100"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="235dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Subject1"
+            android:textColor="#AC2C2C"
+            android:textSize="25sp" />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="198dp"
+        android:layout_height="185dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:text="55%"
+        android:textColor="#DDCECE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/circularProgressbar"
+        tools:layout_editor_absoluteY="197dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
