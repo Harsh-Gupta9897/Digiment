@@ -11,9 +11,9 @@ package="android.example.digiment">
     android:theme="@style/AppTheme">
 
     <activity android:name=".Profile"></activity>
-    <activity android:name=".Sign_up" />
-    <activity android:name=".Subject_dashboard" />
-    <activity android:name=".ProgressBar">
+    <activity android:name=".Sign_up" ></activity>
+    <activity android:name=".Subject_dashboard"></activity>
+    <activity android:name=".ProgressBar"></activity>
 
     <activity android:name=".slide1"></activity>
 
@@ -36,10 +36,7 @@ package="android.example.digiment">
     </activity>
 </application>
 
-</manifest>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-<application>
-    <activity android:name="android.example.digiment.ProgressBar"></activity>
-</application>
+
 </manifest>
