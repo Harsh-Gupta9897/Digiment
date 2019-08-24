@@ -21,8 +21,14 @@
     <string name="notifications">Notifications</string>
     <string name="messages">Messages</string>
     <string name="logout">Logout</string>
-    //home page
 
+    //timeline
+    <string name="sub">S1</string>
+    <string name="assg_1">Assignment 1</string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+
+    //homepage
     <string name="C1">Computer Science and Engineering</string>
     <string name="C2">Information Technology</string>
     <string name="C3">Computer Organisation</string>

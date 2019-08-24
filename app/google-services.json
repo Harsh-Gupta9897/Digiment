@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621378843120",
+    "firebase_url": "https://digiment-6c7d8.firebaseio.com",
+    "project_id": "digiment-6c7d8",
+    "storage_bucket": "digiment-6c7d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621378843120:android:ac9b4f661640c322",
+        "android_client_info": {
+          "package_name": "android.example.digiment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621378843120-7fklik0jst4nt6644jeaogn3580ftimg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.digiment",
+            "certificate_hash": "42d4a465f15849bcd2137551673c7fa217443cb7"
+          }
+        },
+        {
+          "client_id": "621378843120-hvmlcgv8mnvnoer4nlhplphf2u1qdhv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUP75WNlBbExZCOX8P8bvpyiXQcwXdp14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621378843120-hvmlcgv8mnvnoer4nlhplphf2u1qdhv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
