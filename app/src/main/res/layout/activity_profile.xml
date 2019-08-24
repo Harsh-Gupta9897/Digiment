@@ -20,8 +20,13 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:id="@+id/profile_image"
+                android:layout_marginTop="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/man"
+                android:background="@drawable/circular_image"
+                android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -87,13 +92,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/text_layout_lib_id"
                 android:layout_marginTop="20dp">
+
                 <EditText
+                    android:id="@+id/edit_text_lib_id"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/edit_text_lib_id"
+                    android:hint="@string/lib_id"
                     android:inputType="text"
-                    android:textSize="16sp"
-                    android:hint="@string/lib_id"/>
+                    android:textSize="16sp" />
             </android.support.design.widget.TextInputLayout>
 
 
