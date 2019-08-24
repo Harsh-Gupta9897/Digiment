@@ -1,20 +1,32 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "621378843120",
     "firebase_url": "https://digiment-6c7d8.firebaseio.com",
     "project_id": "digiment-6c7d8",
     "storage_bucket": "digiment-6c7d8.appspot.com"
+=======
+    "project_number": "582860345597",
+    "firebase_url": "https://digiment-8b380.firebaseio.com",
+    "project_id": "digiment-8b380",
+    "storage_bucket": "digiment-8b380.appspot.com"
+>>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:621378843120:android:ac9b4f661640c322",
+=======
+        "mobilesdk_app_id": "1:582860345597:android:ac9b4f661640c322",
+>>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
         "android_client_info": {
           "package_name": "android.example.digiment"
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "621378843120-7fklik0jst4nt6644jeaogn3580ftimg.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -24,19 +36,62 @@
         },
         {
           "client_id": "621378843120-hvmlcgv8mnvnoer4nlhplphf2u1qdhv2.apps.googleusercontent.com",
+=======
+          "client_id": "582860345597-filtre8m95rkol09t0h70bbu8t86ebb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.digiment",
+            "certificate_hash": "3a7d6cd55d8d87c9ecd95a544491f9dfab70d1d9"
+          }
+        },
+        {
+          "client_id": "582860345597-0ofgp65aahtl8k877s5kh3kvg2cd8pcu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.digiment",
+            "certificate_hash": "67c570e20d8c7b630a7b062833720b8e8ffec74b"
+          }
+        },
+        {
+          "client_id": "582860345597-9hb73itb5uq0lmmm3ospk0lbfj60jhq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.digiment",
+            "certificate_hash": "f521eece9548609ae7a333623c23af5be4b3542c"
+          }
+        },
+        {
+          "client_id": "582860345597-stqh3771hpqnkmqm8j9vofsafn8v1n69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.digiment",
+            "certificate_hash": "ce04a42a7aa18c465ca61aaae52df899379a1901"
+          }
+        },
+        {
+          "client_id": "582860345597-maivcvdb6s94vrtdm9gu4kg8ne26qq7k.apps.googleusercontent.com",
+>>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyAUP75WNlBbExZCOX8P8bvpyiXQcwXdp14"
+=======
+          "current_key": "AIzaSyC66vfFdtZUeZw7TK9CH3Y1I0otUsupGjU"
+>>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "621378843120-hvmlcgv8mnvnoer4nlhplphf2u1qdhv2.apps.googleusercontent.com",
+=======
+              "client_id": "582860345597-maivcvdb6s94vrtdm9gu4kg8ne26qq7k.apps.googleusercontent.com",
+>>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
               "client_type": 3
             }
           ]
