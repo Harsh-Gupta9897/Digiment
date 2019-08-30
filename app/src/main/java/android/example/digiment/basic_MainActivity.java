@@ -9,7 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class basic_MainActivity extends AppCompatActivity  implements basic_1.OnFragmentInteractionListener , basic_2.OnFragmentInteractionListener,CS_S1_3.OnFragmentInteractionListener , CS_S1_4.OnFragmentInteractionListener{
+public class basic_MainActivity extends AppCompatActivity  implements basic_1.OnFragmentInteractionListener , basic_2.OnFragmentInteractionListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
