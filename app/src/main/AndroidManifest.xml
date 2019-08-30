@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.example.digiment">
@@ -36,47 +35,4 @@
 
         </activity>
     </application>
-=======
-<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="android.example.digiment">
-<uses-permission
-    android:name="android.permission.INTERNET">
-</uses-permission>
-
-<application
-    android:allowBackup="true"
-    android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name"
-    android:roundIcon="@mipmap/ic_launcher_round"
-    android:supportsRtl="true"
-    android:theme="@style/AppTheme">
-
-    <activity android:name=".Profile"></activity>
-    <activity android:name=".Sign_up" ></activity>
-    <activity android:name=".Subject_dashboard"></activity>
-    <activity android:name=".ProgressBar"></activity>
-
-    <activity android:name=".slide1"></activity>
-
-
-
-    <activity
-        android:name=".Home"
-        android:label="@string/title_activity_home"
-        android:theme="@style/AppTheme.NoActionBar" />
-    <activity android:name=".SplashScreen" />
-    <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-    <activity android:name=".basic_MainActivity">
-
-    </activity>
-</application>
-
->>>>>>> a639c615c3120e79a943c7797647d15de1c4ad10
-
 </manifest>
