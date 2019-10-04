@@ -22,7 +22,7 @@
         android:orientation="horizontal">
 
     </LinearLayout>
-    <Button000000000
+    <Button000000000 <!-- error ,please resolve-->
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
